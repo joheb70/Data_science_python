@@ -8,7 +8,7 @@ import folium
 import pandas
 
 #Importing volcanoes data and create dataframe object
-data = pandas.red_csv("Volcanoes.txt")
+data = pandas.read_csv("Volcanoes.txt")
 
 #map object is created and  different parameters are passed in Map class for modifying features within the map
 #Python code is converted to html code
