@@ -16,7 +16,7 @@ data = pandas.read_csv("Volcanoes.txt")
 map = folium.Map(location=[36.047, -94.202], zoom_start=7, tiles="Stamen Terrain")
 
 #Now, adding marker to the map using add child method and then pointed to Marker within folium
-#Leaflet library is used to convert python code to Javscript when used Marker method
+#Leaflet library is used to convert python code to Javascript when used Marker method
 #Marker allows to show pop up information when clicked on the popup icon on the map
 #For example I am passing You are here message to my current location
 
